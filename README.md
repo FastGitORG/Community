@@ -8,8 +8,8 @@ FastGit将提供一个平台，使社区用户更容易加入我们的网络。
 
 ## How it works
 
-We create a repository for storage community IP set. Community users can modify the set by
-PR. We can review changes for quality control.
+A repository will be created for storage community IP set. Community users can modify the set
+by PR. We can review changes for quality control.
 
 After a change made, a web hook (or GitHub Action) will trigge our hosted server to sync new
 DNS config. This will affect the final DNS table.
